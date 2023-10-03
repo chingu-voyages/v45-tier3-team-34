@@ -73,7 +73,6 @@ const Single_Application = ({
             receiverId: dev_id,
           }
         );
-        console.log(res);
       }
     } catch (error) {
       console.log(error);
@@ -121,7 +120,7 @@ const Single_Application = ({
           <h2 className="text-lg sm:text-xl font-semibold">
             {userName}
           </h2>
-          <p className="text-muted text-sm font-thin pl-1">
+          <p className="text-muted text-sm pl-1">
             {email}
           </p>
         </div>
@@ -132,7 +131,7 @@ const Single_Application = ({
           className={`px-2 py-1 rounded ${
             accepted
               ? "bg-primary text-white"
-              : "bg-red-500 text-white"
+              : "bg-destructive text-white"
           }`}
         >
           {accepted ? "Accepted" : "Not Accepted"}

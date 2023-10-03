@@ -7,11 +7,9 @@
   <p align="center">
   We connect junior developers with low-paid real-world projects.
     <br />
-    <br />
-    <a href="https://64e49d3eb7d9d109759abf22--devconnectchingu.netlify.app/" target="_blank">Live Site</a>
+    <br /> 
+    <a href="https://devconnect-v2.netlify.app/" target="_blank">Live Site</a>
     ·
-    <a href="https://github.com/chingu-voyages/v45-tier3-team-34/issues" target="_blank">Report Bug</a>
-       ·
     <a href="https://www.figma.com/proto/zv2fwT27yaOl2pBM6nA3dm/Recreate---Upwork---DevConnect?type=design&node-id=16-1407&t=FWVDL1zbjnJbkPSs-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=16%3A1407" target="_blank">Figma</a>
   </p>
 </div>
@@ -19,7 +17,7 @@
 
 ### About the Project
 
-We connect junior developers with clients seeking affordable software solutions, promoting growth through real-world projects and practical learning. Our platform empowers both developers and clients in a symbiotic partnership.
+We connect junior developers with clients seeking affordable software solutions, promoting growth through real-world projects and practical learning. Our platform empowers both developers and clients in a mutually beneficial partnership.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -66,20 +64,20 @@ We connect junior developers with clients seeking affordable software solutions,
 - [x] Sign Up | Sign In
 - [x] Demo login Developer/Client
 - [x] Edit user profiles
-- [ ] Search open Projects
-- [ ] Apply for Projects
-- [ ] Complete and Submit Projects
-- [ ] Get Reviews
-- [ ] Closed/Archive Projects
-- [ ] Chat integration
-- [ ] Ai Chatbot integration
-- [ ] Video Call
+- [x] Search open Projects
+- [x] Apply for Projects
+- [x] Complete and Submit Projects
+- [x] Get Reviews
+- [ ] Closed/Archive Project
+- [x] Chat integration
+- [x] Notification
+
 
 ## Goals
 
-- [ ] Functionality to assign Projects to Developers by Clients
-- [ ] Functionality for Developers to connect with Clients
-- [ ] Mobile Responsiveness
+- [x] Functionality to assign Projects to Developers by Company/Startup
+- [x] Functionality for Developers to connect with Clients
+- [x] Mobile Responsiveness
 - [ ] Include DevOps
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,7 +91,7 @@ We connect junior developers with clients seeking affordable software solutions,
 - Ali Mora - [LinkedIn](https://www.linkedin.com/in/daurius-ali-swarts/)
 - Mohamed Edris - [LinkedIn](https://www.linkedin.com/in/edriso)
 - Giorgi Kutateladze - [LinkedIn](https://www.linkedin.com/in/giorgi-kutateladze-65a83919a/)
-- Robert varchodi - [LinkedIn](https://www.linkedin.com/in/robert-varchodi-633515217)
+- Robert Varchodi - [LinkedIn](https://www.linkedin.com/in/robert-varchodi-633515217)
 
 <br>
 <br>

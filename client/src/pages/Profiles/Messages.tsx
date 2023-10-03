@@ -39,7 +39,6 @@ const Messages = () => {
         const data = res.data.chatRooms;
 
         setChatData(data);
-        console.log(data);
       }
     } catch (error) {
       console.log(error);
@@ -54,7 +53,7 @@ const Messages = () => {
     return (
       <div className=" w-full h-full flex ">
         <div className="px-1 sm:px-4 gap-5 flex flex-col p-4 max-h-[800px] overflow-y-auto bg-white dark:bg-slate-800 rounded-l-2xl">
-          <h1 className="text-lg sm:text-2xl font-thin hidden sm:block">
+          <h1 className="text-[0.8rem] sm:text-[1rem] text-muted">
             Chats
           </h1>
           {chatData.length > 0
@@ -79,12 +78,12 @@ const Messages = () => {
                         UserState.userData.user
                           ._id ===
                           lastMessage.receiverId
-                          ? "w-[20px] h-[20px] bg-red-500 rounded-[50%] absolute top-2"
+                          ? "w-[20px] h-[20px] bg-destructive rounded-[50%] absolute top-2"
                           : "hidden"
                       }`}
                     ></div>
 
-                    <div className="flex gap-2 sm:gap-2 justify-center items-center w-fit   ">
+                    <div className="flex gap-2 sm:gap-2 justify-center items-center w-fit">
                       <p>
                         <img
                           className="w-10 h-10 rounded-full shadow-md object-cover"
@@ -96,7 +95,7 @@ const Messages = () => {
                         />
                       </p>
                       <p></p>
-                      <h1 className="hidden sm:block text-center font-normal  h-full">
+                      <h1 className="hidden sm:block text-center font-normal h-full">
                         {name}
                       </h1>
                     </div>
